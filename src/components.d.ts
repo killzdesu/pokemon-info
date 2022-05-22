@@ -8,6 +8,7 @@ declare module 'vue' {
     Footer: typeof import('./components/Footer.vue')['default']
     ICarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     README: typeof import('./components/README.md')['default']
+    TypeIconList: typeof import('./components/TypeIconList.vue')['default']
   }
 }
 
