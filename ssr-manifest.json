@@ -1,0 +1,131 @@
+{
+  "vite/modulepreload-polyfill": [],
+  "src/modules/nprogress.ts": [],
+  "src/modules/pinia.ts": [],
+  "vite/preload-helper": [],
+  "src/modules/pwa.ts": [],
+  "src/pages/index.vue": [],
+  "../../@vite-plugin-pages/generated-pages": [],
+  "plugin-vue:export-helper": [],
+  "src/layouts/default.vue": [],
+  "../../@vite-plugin-vue-layouts/generated-layouts": [],
+  "src/App.vue": [],
+  "../../@windicss/windi.css": [],
+  "src/styles/main.css": [],
+  "src/main.ts": [],
+  "index.html": [],
+  "\u0000commonjsHelpers.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "\u0000D:/code/pokemon-info/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+shared@3.2.31/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+reactivity@3.2.31/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+runtime-core@3.2.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+runtime-dom@3.2.31/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/vue@3.2.31/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/vue-demi@0.12.4_vue@3.2.31/node_modules/vue-demi/lib/index.mjs": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/env.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/const.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/time.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/proxy.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/api.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/app.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/component.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/context.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/util.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/api/index.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/plugin.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vue+devtools-api@6.1.3/node_modules/@vue/devtools-api/lib/esm/index.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/pinia@2.0.12_5bgd5bbqiynntouprdo6x2bjeu/node_modules/pinia/dist/pinia.esm-browser.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/vue-router@4.0.14_vue@3.2.31/node_modules/vue-router/dist/vue-router.esm-bundler.js": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/@vueuse+head@0.7.5_vue@3.2.31/node_modules/@vueuse/head/dist/index.mjs": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.19.0_a2mrivgsrrvd3y6evkmsuteggy/node_modules/vite-ssg/dist/chunks/state.mjs": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.19.0_a2mrivgsrrvd3y6evkmsuteggy/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.19.0_a2mrivgsrrvd3y6evkmsuteggy/node_modules/vite-ssg/dist/index.mjs": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/json-pokemon@1.0.0/node_modules/json-pokemon/data.json": [
+    "/assets/vendor.62125dcc.js"
+  ],
+  "node_modules/.pnpm/workbox-window@6.5.1/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
+    "/assets/virtual_pwa-register.6d357894.js"
+  ],
+  "../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register.6d357894.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README.43549382.js"
+  ],
+  "../../@vite-plugin-pages/route-block": [
+    "/assets/_...all_.6cda0aa1.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_.6cda0aa1.js"
+  ],
+  "~icons/carbon/pedestrian": [
+    "/assets/_name_.7abce007.js"
+  ],
+  "src/stores/user.ts": [
+    "/assets/_name_.7abce007.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_.7abce007.js"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404.d6017b72.js"
+  ]
+}
