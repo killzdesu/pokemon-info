@@ -10,7 +10,8 @@
     "test": "vitest",
     "test:e2e": "cypress open",
     "test:unit": "vitest",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "deploy": "git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force"
   },
   "dependencies": {
     "@vueuse/core": "^8.1.1",
