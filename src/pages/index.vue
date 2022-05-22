@@ -19,6 +19,11 @@ const getInfo = (name: any) => {
   }
 }
 
+const spriteUrl = (id: number) => {
+  const url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/${id}.png`
+  return url
+}
+
 const firstPokemon = computed(() => {
   if (!keyword.value || !filteredPokemons) {
     return null
@@ -72,9 +77,10 @@ const typingFirstPokemon = computed(()=>{
         </p>
       </div>
       <div v-if="firstPokemon" class="rounded-2xl border-3 border-orange-400 p-3">
-        <p class="text-2xl font-bold pt-4">
-          {{ firstPokemon.name }}
-        </p>
+        <span class="text-2xl font-bold pt-4">
+        <img :src="spriteUrl(firstPokemon.id)" class="inline" />
+        {{ firstPokemon.name }}
+        </span>
         <p class="italic pt-3 pb-2"> Type </p>
         <TypeIconList :typings="firstPokemon.typeList"/>
         <div class="divider mt-6">
