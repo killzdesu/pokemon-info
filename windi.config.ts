@@ -13,6 +13,6 @@ export default defineConfig({
   },
   safelist: 'prose prose-sm m-auto text-left'.split(' '),
   plugins: [
-    transform('daisyui'),
+    // transform('daisyui'),
   ],
 })

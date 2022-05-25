@@ -67,7 +67,9 @@ const typingFirstPokemon = computed(()=>{
     Pokemon Info
     </p>
     <div class="row my-6">
-      <input type="text" class="input input-md rounded-md w-full max-w-xs input-bordered" v-model="keyword"/>
+      <input type="text"
+        class="text-gray-800 dark:text-gray-800 p-3 border-2 border-gray-700 rounded-md w-full max-w-xs"
+        v-model="keyword"/>
     </div>
     <div class="grid grid-cols-2 gap-x-6">
       <div v-if="firstPokemon === null" class="rounded-2xl border-1 p-2">
@@ -86,15 +88,18 @@ const typingFirstPokemon = computed(()=>{
         <div class="divider mt-6">
           <span class="text-sm text-gray-400 italic">Move Typing</span>
         </div>
-        <p class="title-effect text-red-600">Super effective (x4)</p>
+        <p v-if="typingFirstPokemon[4].length"
+          class="title-effect text-red-600">Super effective (x4)</p>
         <TypeIconList :typings="typingFirstPokemon[4]"/>
         <p class="title-effect text-red-400">Very effective (x2)</p>
         <TypeIconList :typings="typingFirstPokemon[2]"/>
         <p class="title-effect text-blue-600">Not very effective (x0.5)</p>
         <TypeIconList :typings="typingFirstPokemon[0.5]"/>
-        <p class="title-effect text-blue-800">Resisted (x0.25)</p>
+        <p v-if="typingFirstPokemon[0.25].length"
+          class="title-effect text-blue-800">Resisted (x0.25)</p>
         <TypeIconList :typings="typingFirstPokemon[0.25]"/>
-        <p class="title-effect">Immune (x0)</p>
+        <p v-if="typingFirstPokemon[0].length"
+          class="title-effect">Immune (x0)</p>
         <TypeIconList :typings="typingFirstPokemon[0]"/>
         <p class="pb-3"></p>
       </div>
